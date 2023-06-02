@@ -1,5 +1,5 @@
 import React from "react";
-
+import Helmet from 'react-helmet'
 import AppSearchAPIConnector from "@elastic/search-ui-app-search-connector";
 
 import {
@@ -45,7 +45,9 @@ const config = {
 
 export default function App() {
   return (
+
     <SearchProvider config={config}>
+     <Helmet title="Aermovies, optimized search for valuable data on enterainment with trusted ratings"/>
       <WithSearch mapContextToProps={({ wasSearched }) => ({ wasSearched })}>
         {({ wasSearched }) => {
           return (
