@@ -1,0 +1,45 @@
+{
+  "engineName": "search-airmovies",
+  "endpointBase": "https://am-movies-a3af00.ent.us-east-2.aws.elastic-cloud.com",
+  "searchKey": "search-hxggjgks7vxyt2icyyzqauey",
+  "resultFields": [
+    "@timestamp",
+    "Actors",
+    "Airline",
+    "Awards",
+    "BoxOffice",
+    "Country",
+    "DVD",
+    "Director",
+    "Genre",
+    "Language",
+    "Metascore",
+    "Plot",
+    "Poster",
+    "Production",
+    "Rated",
+    "Ratings.Source",
+    "Ratings.Value",
+    "Released",
+    "Response",
+    "Runtime",
+    "Title",
+    "Type",
+    "Website",
+    "Writer",
+    "Year",
+    "imdbID",
+    "imdbRating",
+    "imdbVotes",
+    "id"
+  ],
+  "sortFields": [
+    "Year"
+  ],
+  "facets": [
+    "Genre",
+    "Airline"
+  ],
+  "titleField": "Title",
+  "thumbnailField": "Poster"
+}
