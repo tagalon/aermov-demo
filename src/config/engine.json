@@ -12,16 +12,17 @@
     "DVD",
     "Director",
     "Genre",
+    "Internet Movie Database",
     "Language",
+    "Metacritic",
     "Metascore",
     "Plot",
     "Poster",
     "Production",
     "Rated",
-    "Ratings.Source",
-    "Ratings.Value",
     "Released",
     "Response",
+    "Rotten Tomatoes",
     "Runtime",
     "Title",
     "Type",
@@ -37,8 +38,8 @@
     "Year"
   ],
   "facets": [
-    "Genre",
-    "Airline"
+    "Airline",
+    "Genre"
   ],
   "titleField": "Title",
   "thumbnailField": "Poster"
