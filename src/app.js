@@ -26,8 +26,6 @@ import {
   getFacetFields
 } from "./config/config-helper";
 
-import customView from "./components/customView";
-
 const { hostIdentifier, searchKey, endpointBase, engineName } = getConfig();
 const connector = new AppSearchAPIConnector({
   searchKey,
