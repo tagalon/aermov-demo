@@ -4,8 +4,8 @@
   }
   
   .sui-layout-sidebar-toggle {
-    color: red;
-    border: 1px solid red;
+    color: black;
+    border: 1px solid black;
   }
   
   .sui-result__title,
@@ -16,3 +16,7 @@
   .sui-facet-view-more {
     color: black;
   }
+
+  .sui-result__key q:before, .entry_content q:after {
+    content: "";
+}
