@@ -1,0 +1,18 @@
+.sui-search-box__submit {
+    background: none;
+    background-color: black;
+  }
+  
+  .sui-layout-sidebar-toggle {
+    color: red;
+    border: 1px solid red;
+  }
+  
+  .sui-result__title,
+  .sui-result__title-link {
+    color: black;
+  }
+  
+  .sui-facet-view-more {
+    color: black;
+  }

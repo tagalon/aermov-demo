@@ -31,8 +31,7 @@
     "Year",
     "imdbID",
     "imdbRating",
-    "imdbVotes",
-    "id"
+    "imdbVotes"
   ],
   "sortFields": [
     "Year"
