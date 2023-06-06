@@ -31,10 +31,14 @@
     "Year",
     "imdbID",
     "imdbRating",
-    "imdbVotes"
+    "imdbVotes",
+    "id"
   ],
   "sortFields": [
-    "Year"
+    "Year",
+    "Rotten Tomatoes",
+    "Metacritic",
+    "Internet Movie Database"
   ],
   "facets": [
     "Airline",
