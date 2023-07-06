@@ -1,7 +1,7 @@
 {
-  "engineName": "am-search-engine",
-  "endpointBase": "https://am-movies-8d98e1.ent.us-east-2.aws.elastic-cloud.com",
-  "searchKey": "search-dhnvavayk68i9fj1q3svn7oy",
+  "engineName": "am-engine",
+  "endpointBase": "https://am-movies.ent.us-east-2.aws.elastic-cloud.com",
+  "searchKey": "search-zpddfmoqifzdsz6gdoc168sd",
   "resultFields": [
     "@timestamp",
     "Actors",
