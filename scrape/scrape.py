@@ -165,15 +165,6 @@ def loadJSONMovies():
     try:
     # make the bulk call, and get a response
         response = helpers.bulk(es, index = "search-movies", actions = data)
-        # for object in data:
-        #     response = es.index(
-        #         #Index name in Kibana
-        #         index = 'search-movies',
-        #         document = object
-        #     )
-
-        # res = helpers.bulk(client=es, index = "search-movies", actions = generate_actions())
-    #response = helpers.bulk(elastic, actions, index='employees', doc_type='people')
         print ("\nRESPONSE:", response)
     except Exception as e:
         print("\nERROR:", e)
